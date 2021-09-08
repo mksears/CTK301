@@ -1,0 +1,44 @@
+a {
+ color: #ff0000;
+}
+
+a:link {
+ color: #b30000;
+}
+
+a:visited {
+ color: #b300b3;
+}
+
+a:active {
+ color: #00ffff;
+}
+
+a:hover {
+ color: #66b3ff;
+}
+
+#specialid {
+ color: #ff0000;
+ background-color: #000000;
+}
+
+.specialp {
+ color: #000bff;
+}
+
+main{
+  background-color: #d9b3ff;
+}
+
+footer{
+  background-color: #00cccc;
+}
+
+span{
+  color: #e6e600;
+}
+
+div {
+  color: #0066cc;
+}

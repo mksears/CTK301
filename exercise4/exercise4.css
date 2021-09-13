@@ -1,0 +1,43 @@
+a:link {
+ color: #0e872e;
+ text-decoration: none;
+}
+
+a:visited {
+  color: #0e872e;
+}
+a:hover{
+  color: red;
+  text-decoration: underline;
+}
+
+h1{
+  color: #FFFFFF;
+}
+main {
+ background-color: #998cfa;
+}
+h2 {
+  color: #1e00ff;
+}
+
+span {
+  color: #ffb300;
+}
+
+h3{
+  background-color: #fffb00;
+}
+#specialid {
+  color: red;
+}
+h4{
+  color: #fffb00;
+  background-color: #065925;
+}
+nav{
+  background-color: #5cd68a;
+}
+h5{
+  color: #bc34d1;
+}

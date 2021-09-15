@@ -1,0 +1,89 @@
+a {
+ color: #ff0000;
+ font-family: sans-serif;
+}
+
+a:link {
+ color: #b30000;
+ font-family: sans-serif;
+}
+
+a:visited {
+ color: #b300b3;
+ font-family: sans-serif;
+}
+
+a:active {
+ color: #00ffff;
+ font-family: sans-serif;
+}
+
+a:hover {
+ color: #66b3ff;
+ font-family: sans-serif;
+}
+
+#specialid {
+ background-color: #000000;
+ color: #f78c00;
+ font-weight: normal;
+ font-style: italic;
+
+}
+
+.specialp {
+ color: #000bff;
+ font-family: sans-serif;
+ text-align: justify;
+}
+
+main{
+  background-color: #d9b3ff;
+  font-family: sans-serif;
+}
+
+footer{
+  background-color: #00cccc;
+  font-family: sans-serif;
+}
+
+span{
+  color: #e6e600;
+}
+
+div {
+  color: #0066cc;
+}
+
+h1{
+  color: #f78c00;
+  font-weight: normal;
+  font-style: italic;
+  font-family: sans-serif;
+}
+
+h2{
+  color: #f78c00;
+  font-weight: normal;
+  font-style: italic;
+  font-family: sans-serif;
+}
+
+h3{
+  color: #f78c00;
+  font-weight: normal;
+  font-style: italic;
+  font-family: sans-serif;
+}
+
+nav{
+  text-align: center;
+}
+.imgbox{
+  border: 10px solid #000000;
+  padding: 10px 10px 10px 10px;
+  background-color: #FFFFFF;
+}
+body{
+  background-image: url(ISUQuad.jpg);
+}

@@ -1,0 +1,27 @@
+nav ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li{
+  width: 200px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 0;
+  padding:0px;
+  border: 2px solid #000000;
+}
+
+nav li a{
+  display: block;
+  padding: 10px;
+  margin: 0;
+  background-color: red;
+  color: white;
+  text-decoration: none;
+}
+nav li a:hover{
+  background-color: #caddfc;
+  color: black;
+}

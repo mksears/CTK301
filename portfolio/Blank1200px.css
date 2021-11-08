@@ -1,0 +1,95 @@
+body {
+  background-color: black;
+}
+
+#wrapper {
+  margin: 24px auto;
+  width: 1200px;
+  border: 1px solid black;
+  padding: 24px;
+  background-color: black;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 24px;
+
+}
+
+header {
+  grid-column: span 12;
+  background-color: #70f3fa;
+  color: black;
+  font-family: Helvetica;
+  padding-left: 24px;
+  font-size: 32px;
+  padding: 24px;
+  font-weight: bold;
+}
+
+#mainimg {
+  grid-column: span 8;
+}
+#mainimg img {
+  width: 425px;
+  padding-top: 100px;
+  padding-bottom: 0;
+}
+
+#project {
+  grid-column: span 8;
+}
+
+nav {
+  grid-column: span 4;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  padding-top: 40px;
+}
+nav li a {
+  text-decoration: none;
+  display: block;
+  background-color: #70f3fa;
+  color: black;
+  font-family: Helvetica;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 32px;
+  margin-top: 150px;
+  margin-bottom: 100px;
+  padding: 24px;
+}
+
+main {
+  grid-column: span 12;
+  color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 24px;
+}
+section {
+  grid-column: span 1;
+  font-size: 20px;
+
+}
+
+footer {
+  margin-top: 0;
+  grid-column: span 12;
+  display: block;
+  background-color: white;
+  color: black;
+  font-family: Helvetica;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-left: 24px;
+}
+
+h2 {
+  color: white;
+  font-family: Helvetica;
+  text-transform: uppercase;
+  font-weight: bold;
+
+}

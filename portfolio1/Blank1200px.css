@@ -1,0 +1,128 @@
+body {
+  background-color: black;
+}
+
+#wrapper {
+  margin: 24px auto;
+  width: 1200px;
+  border: 1px solid black;
+  padding: 24px;
+  background-color: black;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 24px;
+
+}
+
+header {
+  grid-column: span 12;
+
+  color: white;
+  font-family: 'Merriweather', serif;
+  padding-left: 24px;
+  font-size: 32px;
+  padding: 24px;
+  font-weight: bold;
+}
+
+#mainimg {
+  grid-column: span 8;
+  padding-top: 100px;
+}
+#mainimg img {
+  width: 425px;
+  border-radius: 24px;
+  padding-bottom: 0;
+}
+
+#project {
+  grid-column: span 8;
+}
+
+nav {
+  grid-column: span 4;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  padding-top: 40px;
+}
+nav li a {
+  text-decoration: none;
+  display: block;
+  background-color: black;
+  color: white;
+  font-family: 'Merriweather', serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 32px;
+  margin-bottom: 0px;
+  padding: 24px;
+}
+
+nav li a:hover {
+  background-color:#c2c6cc;
+  border-radius: 32px;
+}
+main {
+  grid-column: span 12;
+  color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 24px;
+}
+section {
+  grid-column: span 1;
+  font-size: 20px;
+
+}
+
+footer {
+  margin-top: 10px;
+  grid-column: span 12;
+  display: block;
+  background-color: white;
+  color: black;
+  font-family: 'Merriweather', serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-left: 24px;
+  border-radius: 24px;
+}
+
+h2 {
+  color: white;
+  font-family: 'Merriweather', serif;
+  text-transform: uppercase;
+  font-weight: bold;
+
+}
+
+.roundedbox {
+  padding: 24px;
+  border: 3px solid white;
+  background-color: black;
+  border-radius: 24px;
+}
+.roundedbox2{
+  border: 3px solid white;
+  background-color: black;
+  border-radius: 24px;
+  margin-top: 90px;
+  padding: 6px;
+}
+.roundedbox3 {
+  padding: 24px;
+  border: 3px solid white;
+  background-color: black;
+  border-radius: 24px;
+}
+audio {
+  margin-top: 150px;
+}
+ iframe {
+   padding-top: 100px;
+   grid-column: span 12;
+   margin-left: 100px;
+ }
